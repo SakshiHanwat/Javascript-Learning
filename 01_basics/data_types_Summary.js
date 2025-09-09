@@ -26,7 +26,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 345654355667889990282 n;
+//const bigNumber = 3456543556678 n;
 
 // javascript is dynamically typed languageee
 
@@ -47,3 +47,24 @@ const myfunction = function() {
 console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof myfunction);
+// ****************************************
+//Stack(Primitive) , Heap(Non- Primitive)
+
+let myYoutubename = "sakshihanwatdotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "sakshi2gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
